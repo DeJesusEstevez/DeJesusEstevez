@@ -53,13 +53,4 @@ Full-stack **desplegado en producción**. Backend Node.js/Fastify + **PostgreSQL
 
 ---
 
-### 📊 Mis estadísticas en GitHub
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=DeJesusEstevez&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DeJesusEstevez&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
-</p>
-
----
-
 <p align="center"><i>🎓 Estudiante de Ingeniería de Software en el Instituto Tecnológico de Santo Domingo (INTEC) · Certificación HCIA-AI V3.5 (Huawei)</i></p>
