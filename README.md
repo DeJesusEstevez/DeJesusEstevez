@@ -16,8 +16,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/8_proyectos-EN_VIVO-2ea44f?style=flat-square" alt="8 en vivo"/>
-  <img src="https://img.shields.io/badge/700%2B-pruebas_automatizadas-2b6087?style=flat-square" alt="700+ pruebas"/>
+  <img src="https://img.shields.io/badge/10_proyectos-EN_VIVO-2ea44f?style=flat-square" alt="10 en vivo"/>
+  <img src="https://img.shields.io/badge/900%2B-pruebas_automatizadas-2b6087?style=flat-square" alt="900+ pruebas"/>
   <img src="https://img.shields.io/badge/3_sistemas-facturación_fiscal_DGII-14395e?style=flat-square" alt="DGII"/>
   <img src="https://img.shields.io/badge/TDD_·_CI%2FCD-de_la_idea_al_deploy-6b7280?style=flat-square" alt="TDD"/>
 </p>
@@ -64,6 +64,30 @@ Una pieza *scrollytelling*: un comprobante de papel **cobra vida y se vuelve ele
 > `Next.js` · `PostgreSQL` · `Better-Auth` · `RBAC`
 
 <sub>🛠️ Además, herramientas propias: <b>hilo</b> — CLI en Node.js que reconstruye el contexto de un proyecto integrando la <b>API de Claude (Anthropic)</b> · 48 tests &nbsp;|&nbsp; <b>Chess Live</b> — análisis de ajedrez en vivo con <b>visión por computadora</b> (OpenCV/PySide6) + Stockfish · 40 tests.</sub>
+
+---
+
+### 🆕 Cerrando gaps esta semana — 5 repos nuevos (dev/IA + seguridad)
+
+**🤖 DGII Responde — asistente fiscal RAG con citas verificables** &nbsp;·&nbsp; [![live](https://img.shields.io/badge/●_en_vivo-2ea44f?style=flat-square)](https://dgii-responde.vercel.app) [![repo](https://img.shields.io/badge/código-24292e?style=flat-square&logo=github&logoColor=white)](https://github.com/DeJesusEstevez/dgii-responde)
+> Responde e-CF, NCF y formatos 606/607/608 **citando la norma real de la DGII** —o dice "no está en mis fuentes". **RAG** con embeddings locales ($0) + API de Claude + **eval harness** (72.7% hit-rate, medido). **27 pruebas**. _(El chat en vivo requiere una API key de Claude.)_
+> `Next.js` · `TypeScript` · `Claude API` · `RAG` · `Transformers.js`
+
+**🔌 HookLab — inspector de webhooks en tiempo real** &nbsp;·&nbsp; [![repo](https://img.shields.io/badge/código-24292e?style=flat-square&logo=github&logoColor=white)](https://github.com/DeJesusEstevez/hooklab)
+> **GraphQL subscriptions** en vivo + verificación **HMAC** (Stripe/GitHub) timing-safe con anti-replay + endurecimiento GraphQL (límite de profundidad/complejidad). **43 pruebas**.
+> `Fastify` · `Mercurius` · `graphql-ws` · `PostgreSQL` · `HMAC`
+
+**🛡️ Guardian CI — DevSecOps con reglas Semgrep propias** &nbsp;·&nbsp; [![repo](https://img.shields.io/badge/código-24292e?style=flat-square&logo=github&logoColor=white)](https://github.com/DeJesusEstevez/guardian-ci)
+> API deliberadamente vulnerable + **5 reglas SAST escritas a mano** (mapeadas a CWE/OWASP) + GitHub Actions → **SARIF en la pestaña Security**. `semgrep --test` 5/5. ⚠️ Código intencionalmente vulnerable (laboratorio educativo).
+> `Semgrep` · `SARIF` · `GitHub Actions` · `gitleaks` · `OSV-Scanner`
+
+**☁️ DocPipe — pipeline serverless event-driven en AWS** &nbsp;·&nbsp; [![repo](https://img.shields.io/badge/código-24292e?style=flat-square&logo=github&logoColor=white)](https://github.com/DeJesusEstevez/docpipe)
+> S3 → Lambda → DynamoDB → SNS con **infraestructura como código (AWS SAM)**; extrae RNC/NCF/total/fecha de facturas RD. **33 pruebas**, CI en verde. _(Deploy requiere cuenta AWS.)_
+> `AWS SAM` · `Lambda` · `S3` · `DynamoDB` · `SNS` · `TypeScript`
+
+**📡 Radar AppSec RD — escáner pasivo de postura web** &nbsp;·&nbsp; [![live](https://img.shields.io/badge/●_en_vivo-2ea44f?style=flat-square)](https://radar-appsec-rd.vercel.app) [![repo](https://img.shields.io/badge/código-24292e?style=flat-square&logo=github&logoColor=white)](https://github.com/DeJesusEstevez/radar-appsec-rd)
+> Califica **A–F** los headers, cookies y TLS de cualquier URL, con **defensa anti-SSRF** (OWASP A10) e informe agregado de sitios .do. Solo inspección pasiva. **30 pruebas**.
+> `Next.js` · `TypeScript` · `SSRF defense` · `Node tls`
 
 ---
 
@@ -133,7 +157,8 @@ Una pieza *scrollytelling*: un comprobante de papel **cobra vida y se vuelve ele
 ---
 
 ### 🌱 Aprendiendo ahora
-`GraphQL` · `IA aplicada (RAG + bases vectoriales)` · `Cloud (GCP)` · `Inglés técnico`
+`Cloud en producción a escala (AWS/GCP)` · `Kubernetes` · `Inglés técnico`
+<sub>✅ Recién cerrados con proyectos reales: <b>GraphQL en tiempo real</b> (HookLab) · <b>RAG con eval harness</b> (DGII Responde) · <b>SAST/DevSecOps</b> (Guardian CI) · <b>serverless en AWS</b> (DocPipe) · <b>AppSec defensiva</b> (Radar AppSec RD).</sub>
 
 ### 📊 GitHub en números
 <p align="center">
